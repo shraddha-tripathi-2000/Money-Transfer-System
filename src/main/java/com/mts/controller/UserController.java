@@ -1,7 +1,10 @@
 package com.mts.controller;
 
+import com.mts.entity.User;
+
 public class UserController {
-    public void createUser(){
+    public User createUser(User user){
+        return user;
 
     }
 }
